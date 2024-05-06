@@ -9,7 +9,7 @@ Para ello, debes utilizar la función print tres veces en el siguiente orden con
 - "Mi primer print"
 - "30"
 
-Ver Playground1.md para más información.
+Ver 02_playground1.md para más información.
 """
 
 print("Te doy la bienvenida al Coding Playground")
