@@ -58,7 +58,7 @@ Comunmente se usan para describir el codigo como buenas practicas, y así tu equ
 
 Para ejecutar un archivo de python especifico en consola basta con escribir el comando `python` o `python3` seguido de el nombre del arcchivo a ejecutar con todo y extensión:
 
-```shell
+```bash
 python script.py
 ```
 
@@ -82,16 +82,21 @@ print(variable_x)
 ```
 
 De la misma forma se puede cambiar su valor.
+
 ```python
 variable_x = "Bye bye"
 print("Nuevo valor:", variable_x)
 ```
+
 Tambien se pueden ingresar datos desde el teclado usando la función `input`
+
 ```python
 variable_x = input("Ingresa un mensaje: ")
 print("Nuevo valor:", variable_x)
 ```
+
 Como las variables no necesitan ser declaradas con un `tipo` en especifico, se puede hacer un cambio despues de crearla.
+
 ```python
 uwu = 4 # uwu es de tipo int
 uwu = "Hola" # uwu es de tipo str
@@ -101,13 +106,15 @@ print(uwu)
 ### Nombrandovariables
 
 El nombre de una variable puede ser algo corto (como x o y), o mas descriptivo y largo (volumen_total, nombre, catalogo_proyectos). Se siguen las siguientes reglas:
-* Empezar con una letra o un guion bajo.
-* No puede empezar con un número.
-* Solo puede tener caráctere alfa-númericos y guiones bajos.
-* Las variables con sensibles a las mayúsculas.
-* No pueden se palabras clave de Python.
+
+- Empezar con una letra o un guion bajo.
+- No puede empezar con un número.
+- Solo puede tener caráctere alfa-númericos y guiones bajos.
+- Las variables con sensibles a las mayúsculas.
+- No pueden se palabras clave de Python.
 
 Es importante saber que las variables son ***Sensibles a las mayúsculas***, es decir, las variables "A1" y "a1" no son las mimas:
+
 ```python
 a1 = 0
 A1 = "Aun no"
