@@ -9,7 +9,8 @@ Hola mi nombre es {name}, tengo {age} años y en 10 años tendré {total} años
 Ten en cuenta que debes calcular la edad que tendrás en 10 años a partir de la edad. Por ejemplo, si la edad es 29 años, el mensaje mostrado deberá decir "tengo 29 años y en 10 años tendré 39 años"
 
 Aquí tienes otros ejemplos:
-Ejemplo 1:
+
+**Ejemplo 1:**
 
 ```text
 Input:
@@ -20,7 +21,7 @@ Output:
 Hola mi nombre es Juan, tengo 10 años y en 10 años tendré 20 años
 ```
 
-Ejemplo 2:
+**Ejemplo 2:**
 
 ```text
 Input:

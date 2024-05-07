@@ -13,6 +13,8 @@ Python tiene los siguientes tipos de datos por default:
 * Binarios: `bytes`, `bytearray`, `memoryview`
 * None: `NoneType`
 
+---
+
 ## Obtener el tipo de dato de una variable
 
 Se puede ver de qué tipo es una variable usando la funcion `type()`, *i.e.*
@@ -21,6 +23,8 @@ Se puede ver de qué tipo es una variable usando la funcion `type()`, *i.e.*
 x = 3
 print(type(x))
 ```
+
+---
 
 ## Asigando el tipo de dato
 
@@ -45,6 +49,8 @@ El tipo de dato se asigna cuando se le da un valor al dato:
 
 De la misma forma también se puede especificar el tipo de dato usando constructores.
 
+---
+
 ## Strings básicos
 
 Los string estan rodeados ya sea por comillas simples o comillas dobles.
@@ -65,12 +71,16 @@ print("I'm Carlos")
 print('El dijo "No le sabes al POV"')
 ```
 
+---
+
 ### Asignacion
 
 ```python
 cadena = "Soy una cadena"
 diavlo = 'DIAVLO! yo tambien soy una cadena'
 ```
+
+---
 
 ### Strings multilinea
 
@@ -87,6 +97,8 @@ sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua.'''
 ```
 
+---
+
 ## Numeros
 
 Hay tres tipos de numeros:
@@ -102,6 +114,8 @@ x = 1    # int
 y = 2.8  # float
 z = 1j   # complex
 ```
+
+---
 
 ## Booleanos
 
@@ -144,6 +158,8 @@ bool({})
 verdadero = True
 falso = False
 ```
+
+---
 
 ## Transformación (*Casting*)
 
