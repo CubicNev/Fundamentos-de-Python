@@ -47,7 +47,7 @@ print(8 + 3 - 1)
 # Cuidado con estas divisiones, no es valido
 print(10 / 0)
 
-# Con stings
+# Con strings
 # Concatena
 print('Hola' + ' mundo')
 # Repite la cadena 3 veces

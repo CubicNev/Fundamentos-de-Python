@@ -2,6 +2,18 @@
 
 ---
 
+## Contenidos
+
+- [¿Porqué aprender Pyhton?](#porqué-aprender-pyhton)
+- [Herramientas del curso (opcional)](#herramientas-del-curso-opcional)
+- [Primer programa](#primer-programa)
+- [Ejecucion en consola](#ejecucion-en-consola)
+- [Variables](#variables)
+- [Creación de variables](#creacion-de-variables)
+  - [Nombrando variables](#nombrando-variables)
+
+---
+
 ## ¿Porqué aprender Pyhton?
 
 - Es de los lenguajes mas queridos, ocupo el 4to lugar, con el 43% de los votos en el [Stack Overflow Developer Survey 2021](https://survey.stackoverflow.co/2021) donde tuvo 34,155 de 71,547 votos.
@@ -23,8 +35,10 @@
 
 ## Herramientas del curso (opcional)
 
-**Replit:** Herramienta para programar desde navegador.
+Replit: Herramienta para programar desde navegador.
 Crear un entorno de trabajo para trabajar con python.
+
+Visual Studio Code: Editor de código.
 
 ---
 
@@ -62,7 +76,7 @@ Para ejecutar un archivo de python especifico en consola basta con escribir el c
 python script.py
 ```
 
-***Nota:*** Replit corre el archivo `main.py` cuando se le da a `Run`, si se quiere correr otro archivo se debe hacer desde consola.
+> 📝 **Nota:** Replit corre el archivo `main.py` cuando se le da a `Run`, si se quiere correr otro archivo se debe hacer desde consola.
 
 ---
 
@@ -103,7 +117,7 @@ uwu = "Hola" # uwu es de tipo str
 print(uwu)
 ```
 
-### Nombrandovariables
+### Nombrando variables
 
 El nombre de una variable puede ser algo corto (como x o y), o mas descriptivo y largo (volumen_total, nombre, catalogo_proyectos). Se siguen las siguientes reglas:
 
