@@ -6,7 +6,7 @@ Fecha de creación: 8-Mayo-2024
 Programa que simula el juego piedra, papel o tijera. Usa una modalidad de computadora vs jugador.
 """
 
-user_option = input("piedra, papel o tijera: ")
+user_option = input("piedra, papel o tijera: ").lower()
 computer_option = 'piedra'
 
 if user_option == computer_option:
@@ -32,3 +32,5 @@ elif user_option == 'tijera':
     else:
         print('piedra gana a tijera')
         print("compuer gano!")
+else:
+    print("Opcion invalida: ", user_option)

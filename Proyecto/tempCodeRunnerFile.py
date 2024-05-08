@@ -1,0 +1,1 @@
+user_option = input("piedra, papel o tijera: ").lower()

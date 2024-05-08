@@ -2,11 +2,13 @@
 
 El proyecto consiste en el juego "Piedra, Papel o Tijeras", el programa sigue la lógica del juego y permite jugar contra la computadora.
 
-**Nombre del archivo principal:** `PPT.py`
-**Descripción:** Es la abreviación de Piedra, Papel o Tijeras
-**Metodología:** Incremental.
+- **Nombre del archivo principal:** `PPT.py`
+- **Descripción:** Es la abreviación de Piedra, Papel o Tijeras
+- **Metodología:** Incremental.
 
 ## Incremento 1
+
+**Fecha:** 8/Mayo/2024
 
 Se agregan condiconales. La opcion que selecciona la computadora, de momento esta estática y se hace desde dentro del código. Pero la lógica ya esta implementada.
 
@@ -34,4 +36,23 @@ elif user_option == 'tijera':
     else:
         print('piedra gana a tijera')
         print("compuer gano!")
+```
+
+## Incremento 2
+
+**Fecha:** 8/Mayo/2024
+
+Se valida que independientemente a lo que ingrese usuario, siempre se manejara el texto en minúsculas.
+
+```python
+user_option = input("piedra, papel o tijera: ").lower()
+```
+
+Se agrega una validación para cuando no se ingresa una de las opciones.
+
+```python
+if False:
+    pass # Parte ya implementada arriba
+else:
+    print("Opcion invalida: ", user_option)
 ```
