@@ -75,7 +75,7 @@ Se hace por medio de indices, si es que se quiere cambiar uno en específico:
 
 ```python
 thislist = ["apple", "banana", "cherry"]
-thislist[1] = "platano"
+thislist[1] = "platano" # ["apple", "platano", "cherry"]
 ```
 
 Tambíen se pueden cambiar dentro de un rango.
@@ -95,8 +95,7 @@ Para agregar un elemento al final de la lista se usa el método `append(item)`
 
 ```python
 thislist = ["apple", "banana", "cherry"]
-thislist.append("orange")
-print(thislist)
+thislist.append("orange") # ["apple", "banana", "cherry", "orange"]
 ```
 
 ### Con insert()

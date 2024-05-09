@@ -56,3 +56,27 @@ if False:
 else:
     print("Opcion invalida: ", user_option)
 ```
+
+## Incremento 3
+
+Se implementan tuplas para tener unicamente las tres opciones: pridra, papel o tijeras. Como las tuplas son **inmutables** nos sirve porque no usamos nada más que esas opciones.
+
+```python
+# Importaciones
+import random
+
+# Opciones:
+options = ('piedra', 'papel', 'tijera')
+
+# Se lee la opción del usuario y se pasa a mnusculas
+user_option = input("piedra, papel o tijera: ").lower()
+
+# Valida que la opcion ingresada se encuentre dentro de las opciones
+if not user_option in options:
+    print('Esa opciones no es valida')
+
+# Se escoge una opcion de forma aleatoria
+computer_option = random.choice(options)
+```
+
+De la misma forma con tuplas se permite validar que la opcion ingresada se encuentre dentro de las opciones de la tupla, y también, se implementa una funcionalidad que ayuda a que la computadora elija de forma aleatoria una opción de la tupla.

@@ -5,9 +5,25 @@ Fecha de creación: 8-Mayo-2024
 
 Programa que simula el juego piedra, papel o tijera. Usa una modalidad de computadora vs jugador.
 """
+# Importaciones
+import random
 
+# Opciones:
+options = ('piedra', 'papel', 'tijera')
+
+# Se lee la opción del usuario y se pasa a mnusculas
 user_option = input("piedra, papel o tijera: ").lower()
-computer_option = 'piedra'
+
+# Valida que la opcion ingresada se encuentre dentro de las opciones
+if not user_option in options:
+    print('Esa opciones no es valida')
+
+# Se escoge una opcion de forma aleatoria
+computer_option = random.choice(options)
+
+#Generan opciones para la computadora
+print('User option:', user_option)
+print('Computer option:', computer_option)
 
 if user_option == computer_option:
     print("Empate!")
