@@ -80,3 +80,61 @@ computer_option = random.choice(options)
 ```
 
 De la misma forma con tuplas se permite validar que la opcion ingresada se encuentre dentro de las opciones de la tupla, y también, se implementa una funcionalidad que ayuda a que la computadora elija de forma aleatoria una opción de la tupla.
+
+## Incremento 4
+
+**Fecha:** 10/Mayo/2024
+
+Se agregan ciclos para que el juego tenga varias rondas. De forma que se determina un ganador cuando uno de los dos contrincantes gane al menos 2 veces.
+
+- Se agrega un contador de rondas
+
+```python
+rounds = 1
+```
+
+- Se agrega dos contadores para contar cuantas wins lleva cada jugador
+
+```python
+computer_wins = 0
+user_wins = 0
+```
+
+- Se agregan un aumento en el contador de wins del usuario cada vez que gana.
+
+```python
+user_wins += 1
+```
+
+- Se agregan un aumento en el contador de wins de la computadora cada vez que gana.
+
+```python
+computer_wins += 1
+```
+
+- Se agrega una validación para ver cuando alguno de los dos jugadores ha ganado dos veces:
+
+```python
+if computer_wins == 2:
+    print(' COMPUTER WINS!!!!')
+    break
+elif user_wins == 2:
+    print(' COMPUTER WINS!!!!')
+    break
+```
+
+- Se agrega el depliegue de los contadores
+
+```python
+print('computer_wins:', computer_wins)
+print('user_wins:', user_wins)
+```
+
+- Se agrega un `continue` dentro de la validación de opciones para saltar rondas cuando no se ingresa algo valido.
+
+```python
+# Valida que la opcion ingresada se encuentre dentro de las opciones
+if not user_option in options:
+    print('Esa opciones no es valida')
+    continue
+```
