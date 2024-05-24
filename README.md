@@ -7,7 +7,7 @@ Python 🐍 desde cero. Variables, estructuras de datos, condicionales y ciclos.
 ## Contenido
 
 1. [Incio](./01%20Introduccion/)
-   1. [Introducción](./01%20Introduccion/Playground1.md)
+   1. [Introducción](./01%20Introduccion/Introduccion.md)
    2. [Herramientas para el curso](./01%20Introduccion/Herramientas%20para%20programar%20con%20Python.md)
 2. [Tipos de Datos](./02%20Tipos%20de%20Datos/Tipos%20de%20Datos.md)
 3. [Operadores y Concionales](./03%20Operadores%20y%20Condicionales/Operadores%20y%20Condicionales.md)
